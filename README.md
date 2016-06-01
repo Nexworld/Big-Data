@@ -6,11 +6,11 @@ Configuration
 
 *Machine*: Ubuntu
 
-*Installation* : Hadoop 2.6.0 + Hive + Pig
-
-*Users:* “user:hduser|mdp:hduser”, “user:nexadmin|mdp:nexworld2015”
+*Installation* : Hadoop 2.6.0 + Spark + Hive + Pig
 
 [*https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html\#Download*](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html#Download)
+
+[*http://spark.apache.org/downloads.html*](http://spark.apache.org/downloads.html)
 
 [*https://cwiki.apache.org/confluence/display/Hive/AdminManual+Installation*](https://cwiki.apache.org/confluence/display/Hive/AdminManual+Installation)
 
@@ -18,9 +18,6 @@ Configuration
 
 Prérequis
 ---------
-
-Pour la démonstration, il faut se loguer en tant que hduser, Hadoop n’a
-pas été installé pour les autres users.
 
 Démonstrations
 
@@ -74,7 +71,7 @@ Transférer le fichier input vers le filesystem Hadoop : “hadoop fs -put
 
 “hadoop fs -cat /user/hduser/input/\*” : lire le contenu du fichier
 
-*Execution du Wrodcount :* hadoop jar wordcount.jar WordCount
+*Execution du Wordcount :* hadoop jar wordcount.jar WordCount
 /user/hduser/input /user/hduser/output
 
 *Administration Hadoop pour voir les applications qui sont lancées :*
