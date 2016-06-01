@@ -1,4 +1,16 @@
-﻿Démonstration Hadoop 2.6
+Liens vers les sandbox des 3 distributions
+==========================================
+
+Hortonworks :
+[*http://hortonworks.com/downloads/\#sandbox*](http://hortonworks.com/downloads/#sandbox)
+
+Cloudera :
+[*http://www.cloudera.com/downloads/quickstart\_vms/5-7.html*](http://www.cloudera.com/downloads/quickstart_vms/5-7.html)
+
+MapR :
+[*https://www.mapr.com/products/mapr-sandbox-hadoop/download*](https://www.mapr.com/products/mapr-sandbox-hadoop/download)
+
+Démonstration Hadoop 2.6
 ========================
 
 Configuration
@@ -18,6 +30,9 @@ Configuration
 
 Prérequis
 ---------
+
+Pour la démonstration, il faut se loguer en tant que hduser, Hadoop n’a
+pas été installé pour les autres users.
 
 Démonstrations
 
